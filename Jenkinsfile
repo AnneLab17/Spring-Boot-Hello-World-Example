@@ -107,7 +107,7 @@ pipeline {
                continueOnError: false, failOnError: true,
                publishers: [
                 sshPublisherDesc(
-                 configName: "docker-host",
+                 configName: "vagrant@mydocker",
                  verbose: true,
                  transfers: [
                   sshTransfer(
