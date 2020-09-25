@@ -73,6 +73,7 @@ pipeline {
                     -Dsonar.sourceEncoding=UTF-8'''
                 }
             }
+		}
 		stage('Continuous delivery') {
           	steps {
              script {
@@ -125,6 +126,6 @@ pipeline {
           }
         }
 
-	}
+	
     }
 }
